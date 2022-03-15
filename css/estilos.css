@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.encabezado{ 
+    background-color: coral;
+    text-align: center;
+    height: 50px;
+    color: rgb(12, 27, 240);
+    text-transform: uppercase;
+    word-spacing: 12px;
+    letter-spacing: 2px;
+    line-height: 45px;
+    box-shadow: 2px 3px;
+}
+
+
+.contenido{
+    background-color: rgb(35, 120, 199);
+    min-height: 500px;
+    width: calc(80% - 30px);
+    padding: 15px;
+}
+
+
+
+
+.barralateral{
+    background-color: lawngreen;
+    width: calc(20% - 16px);
+    float: left;
+    min-height: 730px;
+    padding: 8px;;
+}
+
+
+.contenido{
+    width: calc(80%-50px);
+    float: left;
+
+}
+
+
+.piedepagina{
+    background-color: magenta;
+    height: 100px
+}
+
+.piedepagina{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+body{background-color: chartreuse;}
